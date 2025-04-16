@@ -91,7 +91,7 @@ function App() {
             </div>
           )}
           {bestTime && (
-            <div className="flex items-center justify-center gap-2 text-sm text-blue-600">
+            <div className="flex items-center justify-center gap-2 text-sm text-blue-600 mt-2">
               <Timer className="w-4 h-4" />
               <span>Найкращий час: {bestTime.toFixed(1)}с</span>
             </div>
